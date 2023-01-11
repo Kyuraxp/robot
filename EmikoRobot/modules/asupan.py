@@ -5,8 +5,8 @@ import os
 import random
 from telethon.tl.types import InputMessagesFilterPhotos
 from telethon.tl.types import InputMessagesFilterVideo
-from BagaskaraRobot.events import register
-from BagaskaraRobot import telethn as tbot, ubot2                 
+from EmikoRobot.events import register
+from EmikoRobot import telethn as tbot, ubot2                 
 
 
 @register(pattern="^/asupan ?(.*)")
