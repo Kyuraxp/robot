@@ -79,9 +79,9 @@ def ping(update: Update, context: CallbackContext):
     uptime = get_readable_time((time.time() - StartTime))
 
     message.edit_text(
-        "<b>PONG</b> ✨\n"
-        "<b>Time Taken:</b> <code>{}</code>\n"
-        "<b>Service Uptime:</b> <code>{}</code>".format(telegram_ping, uptime),
+        "<b>PONG</b> 🏓\n"
+        "<b>⏱ Ping:</b> <code>{}</code>\n"
+        "<b>⏱ Uptime:</b> <code>{}</code>".format(telegram_ping, uptime),
         parse_mode=ParseMode.HTML,
     )
 
