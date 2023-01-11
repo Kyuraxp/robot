@@ -76,7 +76,7 @@ async def mentionall(event):
         pass
 
 
-@client.on(events.NewMessage(pattern="^/cancel$"))
+@client.on(events.NewMessage(pattern="^/stop$"))
 async def cancel_spam(event):
     is_admin = False
     try:
@@ -118,5 +118,5 @@ Emiko Can Be a Mention Bot for your group.
 Only admins can tag all.  here is a list of commands
 
 ❂ /tagall or @all (reply to message or add another message) To mention all members in your group, without exception.
-❂ /cancel for canceling the mention-all.
+❂ /stop for canceling the mention-all.
 """
